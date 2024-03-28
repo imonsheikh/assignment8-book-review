@@ -5,7 +5,6 @@ const Home = () => {
     return (
         <div>
             <Header></Header>
-            <h2>HOme component</h2>
             <Outlet></Outlet>
         </div>
     );
