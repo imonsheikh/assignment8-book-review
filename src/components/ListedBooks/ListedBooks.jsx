@@ -1,8 +1,9 @@
+import Books from "../Books/Books";
 
 const ListedBooks = () => {
     return (
         <div>
-            <h2>liste</h2>
+            <Books></Books>
         </div>
     );
 };
