@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Book = ({book}) => {
 
-    const {image, bookName, author, rating, category, tags, publisher, yearOfPublishing} = book
+    const {image, bookName, author, rating, category, tags, publisher, yearOfPublishing, id} = book
 
     return (
   <Link to={`/book/${id}`}>
