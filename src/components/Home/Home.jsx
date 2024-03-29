@@ -1,14 +1,12 @@
-import { Outlet } from "react-router-dom";
-import Header from "../Header/Header";
 import Books from "../Books/Books";
+import Banner from "../Banner/Banner";
 
 const Home = () => {
     return (
         <div>
-            <Header></Header>
+            <Banner></Banner>
             <Books></Books>
 
-            <Outlet></Outlet>
         </div>
     );
 };

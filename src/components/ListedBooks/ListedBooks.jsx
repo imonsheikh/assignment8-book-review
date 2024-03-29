@@ -1,9 +1,9 @@
-import Books from "../Books/Books";
+import Header from "../Header/Header";
 
 const ListedBooks = () => {
     return (
         <div>
-            <Books></Books>
+            <h2>listed books</h2>
         </div>
     );
 };

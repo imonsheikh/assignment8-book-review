@@ -3,17 +3,17 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
 
     const links = <>
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/listed-books">Listed Books</NavLink></li>
-            <li><NavLink to="/pages-to-read">Pages To Read</NavLink></li>
-            <li><NavLink to="/Contact">Contact</NavLink></li>
-            <li><NavLink to="/about">About</NavLink></li>
+            <li><NavLink to="/" className={({isActive}) => isActive? 'text-[#23BE0A] border-solid border-2 border-green-600' : ''}>Home</NavLink></li>
+            <li><NavLink to="/listed-books" className={({isActive}) => isActive? 'text-[#23BE0A] border-solid border-2 border-green-600' : ''}>Listed Books</NavLink></li>
+            <li><NavLink to="/pages-to-read" className={({isActive}) => isActive? 'text-[#23BE0A] border-solid border-2 border-green-600' : ''}>Pages To Read</NavLink></li>
+            <li><NavLink to="/Contact" className={({isActive}) => isActive? 'text-[#23BE0A] border-solid border-2 border-green-600' : ''}>Contact</NavLink></li>
+            <li><NavLink to="/pricing" className={({isActive}) => isActive? 'text-[#23BE0A] border-solid border-2 border-green-600' : ''}>Pricing</NavLink></li>
  
     </>
 
 
     return (
-        <div className="navbar max-w-6xl mx-auto">
+        <div className="navbar max-w-text- mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -23,7 +23,7 @@ const Header = () => {
              {links}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">Books Jone</a>
+          <a className="btn btn-ghost text-3xl -ml-6">Books Jone</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -31,8 +31,8 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end flex gap-5">
-          <a className="btn w-28 h-14">Sign In</a>
-          <a className="btn  w-28 h-14">Sign Up</a>
+          <a className="btn w-28 h-14 bg-[#23BE0A] text-[#FFFFFF] text-xl">Sign In</a>
+          <a className="btn  w-28 h-14 text-[#FFFFFF] text-xl bg-[#59C6D2]">Sign Up</a>
         </div>
       </div>
     );
