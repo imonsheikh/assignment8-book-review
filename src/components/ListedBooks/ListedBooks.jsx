@@ -11,7 +11,7 @@ const ListedBooks = () => {
 
     return (
         <div>
-            <h2 className="bg-[#1313130D] h-24 text-4xl mt-9 pt-5 font-bold rounded-lg"> I am listed Books</h2>
+            <h2 className="bg-[#1313130D] h-24 text-4xl mt-9 pt-5 font-bold rounded-lg"> Books</h2>
            
            <select name="" id="" className="mt-10 bg-[#23BE0A] text-white p-5 text-xl font-semibold rounded-xl outline-none">
 

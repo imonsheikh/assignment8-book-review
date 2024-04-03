@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
-import { useLoaderData, useParams } from "react-router-dom";
 import { getBooks } from "../../utils";
 import ReadBooksP from "../ReadBooksP/ReadBooksP";
-import BookDetails from "../BookDetails/BookDetails";
 
 
 
@@ -24,7 +22,6 @@ const ReadBooks = () => {
     return (
 
         <div>
-            <h1>read books instead of bookmarks</h1>
             {
                     books.map(book => <ReadBooksP book={book} key={book.bookId}></ReadBooksP>)
                 }

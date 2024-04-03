@@ -6,24 +6,8 @@ import { Link } from "react-router-dom";
 
 
 
-const ReadBooksP = ({book}) => {
-    // const [books, setBooks] = useState([])
+const WishBookS = ({book}) => {
 
-//   const books = useLoaderData()
-
-//    useEffect(() => {
-//         const storedBooks = getBooks()
-      
-//          setBooks(storedBooks)  
-//         // if(books.length > 0){
-//         //     const readedBooks = books.filter(book => storedBooks.includes(book.bookId))
-//         // console.log(books, storedBooks, readedBooks);
-
-//         // }
-        
-    
-//        }, [])
-    //   console.log(books);
     const {bookName, author, yearOfPublishing, publisher, tags, category, rating, totalPages, image, bookId} = book
      console.log(author);
     
@@ -80,4 +64,7 @@ const ReadBooksP = ({book}) => {
     );
 };
 
-export default ReadBooksP;
+
+
+
+export default WishBookS;
