@@ -6,15 +6,22 @@ import ReadBooksP from "../ReadBooksP/ReadBooksP";
 
 const ReadBooks = () => {
 
-
+   
+    //books without filter
    const [books, setBooks] = useState([])
-
     useEffect(() => {
       const storedBooks = getBooks()
       
       setBooks(storedBooks)
      }, [])
     console.log(books);
+
+
+
+
+
+
+
 
 
 
