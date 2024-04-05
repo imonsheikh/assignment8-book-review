@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+// import App from './App.jsx'
 import './index.css'
 import  { Toaster } from 'react-hot-toast';
 
@@ -19,8 +19,8 @@ import Contact from './components/Contact/Contact.jsx';
 import Pricing from './components/Pricing/Pricing.jsx';
 import Layout from './components/Layout/Layout.jsx';
 import BookDetails from './components/BookDetails/BookDetails.jsx';
-import ReadBooks from './components/ReadBooks/ReadBooks.jsx';
-import WishlistBooks from './components/WishlistBooks/WishlistBooks.jsx';
+// import ReadBooks from './components/ReadBooks/ReadBooks.jsx';
+// import WishlistBooks from './components/WishlistBooks/WishlistBooks.jsx';
 
 const router = createBrowserRouter([
   {

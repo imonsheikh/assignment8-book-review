@@ -1,20 +1,20 @@
-import { useEffect, useState } from "react";
-import { getWishBooks } from "../../utils/wishBooks";
+// import { useEffect, useState } from "react";
+// import { getWishBooks } from "../../utils/wishBooks";
 import WishBookS from "../WishBookS/WishBookS";
 
 
 
-const WishlistBooks = () => {
+const WishlistBooks = ({books}) => {
 
 
-   const [books, setBooks] = useState([])
+//    const [books, setBooks] = useState([])
 
-    useEffect(() => {
-      const storedBooks = getWishBooks()
+//     useEffect(() => {
+//       const storedBooks = getWishBooks()
       
-      setBooks(storedBooks)
-     }, [])
-    console.log(books);
+//       setBooks(storedBooks)
+//      }, [])
+//     console.log(books);
 
 
 

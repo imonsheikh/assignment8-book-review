@@ -43,12 +43,12 @@ const PagesToRead = () => {
 
       
         return (
-        <div className='bg-base-200 px-15 py-20 rounded-xl mt-20'>
+        <div className='bg-base-200 px-15 py-20 rounded-xl mt-20 text-center items-center'>
             <h2>I am pages to read</h2>
             
             <BarChart
-      width={1150}
-      height={650}
+      width={1230}
+      height={600}
       data={books}
       margin={{
         top: 20,

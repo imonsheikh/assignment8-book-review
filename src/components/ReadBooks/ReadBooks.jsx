@@ -1,20 +1,20 @@
-import { useEffect, useState } from "react";
-import { getBooks } from "../../utils";
+// import { useEffect, useState } from "react";
+// import { getBooks } from "../../utils";
 import ReadBooksP from "../ReadBooksP/ReadBooksP";
 
 
 
-const ReadBooks = () => {
+const ReadBooks = ({books}) => {
 
    
     //books without filter
-   const [books, setBooks] = useState([])
-    useEffect(() => {
-      const storedBooks = getBooks()
+//    const [books, setBooks] = useState([])
+//     useEffect(() => {
+//       const storedBooks = getBooks()
       
-      setBooks(storedBooks)
-     }, [])
-    console.log(books);
+//       setBooks(storedBooks)
+//      }, [])
+//     console.log(books);
 
 
 
