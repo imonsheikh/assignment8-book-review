@@ -1,9 +1,7 @@
  
 ## Features:
 
-- Dynamic Book Listings: Utilize React to dynamically display a list of books available in your store. Users can browse through the catalog and view details such as book title, author, cover image, and description.
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Dynamic Book Listings: Utilize React to dynamically display a list of books available in your store. Users can browse through the catalog and view details such as book title, author, cover image, and description.This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 - Responsive Design: Ensure your book store website is responsive and optimized for different devices and screen sizes using React's responsive design techniques and CSS frameworks. This ensures a consistent and user-friendly experience across desktops, tablets, and mobile phones.
 
