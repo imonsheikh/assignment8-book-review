@@ -25,7 +25,7 @@ const Header = () => {
              {links}
             </ul>
           </div>
-          <a className="btn btn-ghost text-3xl -ml-6">Books Jone</a>
+          <a className="btn btn-ghost md:text-3xl -ml-6 text-xl">Books Jone</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
@@ -33,8 +33,9 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end flex gap-5">
-          <a className="btn w-28 h-14 bg-[#23BE0A] text-[#FFFFFF] text-xl">Sign In</a>
-          <a className="btn  w-28 h-14 text-[#FFFFFF] text-xl bg-[#59C6D2]">Sign Up</a>
+          <a className="btn md:w-28 md:h-14 bg-[#23BE0A] text-[#FFFFFF] md:text-xl text-sm">Sign In</a>
+
+          <a className="btn  md:w-28 md:h-14 text-[#FFFFFF] md:text-xl bg-[#59C6D2]">Sign Up</a>
         </div>
       </div>
     );

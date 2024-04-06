@@ -43,9 +43,7 @@ const PagesToRead = () => {
 
       
         return (
-        <div className='bg-base-200 px-15 py-20 rounded-xl mt-20 text-center items-center'>
-            <h2>I am pages to read</h2>
-            
+        <div className='bg-base-200 md:px-15 md:py-20 rounded-xl mt-20 text-center items-center'>            
             <BarChart
       width={1230}
       height={600}
