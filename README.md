@@ -1,4 +1,6 @@
- 
+
+## Netlify live link:
+https://book-jone.netlify.app/
 ## Features:
 
 - Dynamic Book Listings: Utilize React to dynamically display a list of books available in your store. Users can browse through the catalog and view details such as book title, author, cover image, and description.This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
